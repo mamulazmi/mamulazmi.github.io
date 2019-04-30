@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Montserrat:900');
+
+body {
+    font-family: 'Karla', sans-serif;
+    width: 100%;
+}
+
+nav {
+    height: 70px;
+}
+
+nav .nav-link, .navbar-brand {
+    font-family: 'Karla Bold', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+nav a {
+    outline: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+section:not(#intro) {
+    padding: 50px;
+}
+
+section .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #222831;
+    padding: 20px;
+}
+
+section#intro {
+    height: 100vh;
+    font-weight: 900;
+    background-color: #222831;
+}
+
+section#intro .avatar-box {
+    text-align: center;
+}
+
+section#intro img {
+    border-radius: 50%;
+    max-width: 250px;
+}
+
+section#intro h1 {
+    font-size: 50px;
+    color: #eeeeee;
+
+}
+
+section#intro h2 {
+    color: #00adb5;
+}
+
+@media only screen and (max-width: 720px) {
+    section#intro {
+        padding: 70px 10px;
+        height: 100%;
+        font-weight: 900;
+        background-color: #222831;
+    }
+    section#intro .avatar-box {
+        text-align: center;
+        
+    }
+}
